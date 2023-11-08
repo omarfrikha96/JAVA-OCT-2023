@@ -38,14 +38,15 @@ public ArrayList<String> getNewPasswordSet(int length){
     return passwordSet;
 }
 
-public ArrayList<String> shuffleArray(ArrayList<String> arr){
-    Random rand = new Random();
-    for(int i = 0; i < arr.size(); i++){
-        int randomIndex = rand.nextInt(arr.size());
-        String temp = arr.get(i);
-        arr.set(i, arr.get(randomIndex));
-        arr.set(randomIndex, temp);
+public ArrayList<String> shuffleArray(ArrayList<String> arr) {
+    Random rand = new Random(); // Create a random number generator
+    for (int i = 0; i < arr.size(); i++) {
+        int randomIndex = rand.nextInt(arr.size()); // Generate a random index between 0 and the size of the ArrayList
+        String temp = arr.get(i); // Store the element at the current position (i) in a temporary variable
+        arr.set(i, arr.get(randomIndex)); // Replace the element at the current position with the element at the random index
+        arr.set(randomIndex, temp); // Put the element from the temporary variable into the position of the random index
     }
-    return arr;
+    return arr; // Return the shuffled ArrayList
 }
+
 }
