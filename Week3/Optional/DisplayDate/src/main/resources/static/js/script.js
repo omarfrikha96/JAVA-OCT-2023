@@ -1,0 +1,1 @@
+alert("this is the date" +  document.title.toLocaleLowerCase()+" template");
