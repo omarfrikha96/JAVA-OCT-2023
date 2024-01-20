@@ -1,5 +1,5 @@
 # JAVA 
-
+## This represtory contains all my progress and assignments in the JAVA, when learning from Coding Dojo Africa bootcamp
 <img src="https://github.com/MohamedAmineHammi/Web-Fundamentals-CODING-DOJO/blob/main/Coding%20Dojo%20Logo.png" width="400" height="100">
 <img src="https://github.com/MohamedAmineHammi/Java-Stack-CODING-DOJO/blob/main/Java%20Logo.png" width="500" height="300">
 
